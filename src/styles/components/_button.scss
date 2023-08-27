@@ -1,0 +1,77 @@
+@use '../abstract/variables' as v;
+@use '../abstract/mixins' as m;
+
+.btn {
+  border-radius: 2.5rem;
+  display: block;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin: 0 auto;
+  outline: 1px solid v.$color-white;
+  text-transform: uppercase;
+
+  &--blue {
+    @include m.btn-color(v.$color-blue-3, v.$color-primary);
+  }
+
+  &--green {
+    @include m.btn-color(v.$color-green-3, v.$color-secondary-dark);
+  }
+
+  &--yellow {
+    @include m.btn-color(v.$color-yellow-2, v.$color-yellow-3);
+  }
+
+  &--red {
+    @include m.btn-color(v.$color-red-2, v.$color-red-3);
+  }
+
+  &--purple {
+    @include m.btn-color(v.$color-purple-2, v.$color-purple-3);
+  }
+
+  &--outline-blue {
+    @include m.btn-outline(v.$color-blue-3, v.$color-primary);
+  }
+
+  &--outline-green {
+    @include m.btn-outline(v.$color-green-3, v.$color-secondary-dark);
+  }
+
+  &--outline-yellow {
+    @include m.btn-outline(v.$color-yellow-2, v.$color-yellow-3);
+  }
+
+  &--outline-red {
+    @include m.btn-outline(v.$color-red-2, v.$color-red-3);
+  }
+
+  &--outline-purple {
+    @include m.btn-outline(v.$color-purple-2, v.$color-purple-3);
+  }
+
+  &--medium {
+    font-size: v.$font-size;
+    padding: 1.1rem;
+    width: 60%;
+
+    @include m.responsive(tab-port){
+      font-size: v.$font-size - .4rem;
+    }
+    
+    @include m.responsive(phone) {
+      font-size: v.$font-size - .6rem;
+      padding: 1.2rem 1rem;
+      width: 100%;
+    }
+  }
+}
+
+.disabled {
+  background-color: v.$color-gray-2;
+
+  &:hover {
+    background-color: v.$color-gray-2;
+    cursor: not-allowed;
+  }
+}

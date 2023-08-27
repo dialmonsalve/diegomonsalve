@@ -1,0 +1,103 @@
+@use '../abstract/variables' as v;
+@use '../abstract/mixins' as m;
+
+@mixin card-services() {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+  padding: 2rem;
+  border-radius: 1.5rem;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+  width: 70%;
+  height: 100%;
+  background-color: #fafafa10;
+
+  @include m.responsive(tab-port){
+    width: 100%;
+
+  }
+  @include m.responsive(phone){
+    width: 100%;
+    flex-direction: column;
+  }
+
+
+  &:hover {
+    cursor: pointer;
+    outline: 3px solid v.$color-primary-light;
+  }
+
+  &--content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2rem;
+  }
+
+  &--content-title {
+    margin-bottom: 2rem;
+  }
+
+  &--content-description {
+    text-align: justify;
+    font-size: 1.7rem;
+  }
+
+  &--image {
+    display: block;
+    border-radius: 1.5rem;
+  }
+
+  &--button {
+    margin-top: 2rem;
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+    padding: 1rem 1.5rem;
+    border-radius: 3rem;
+    transition: background-color .3s;
+
+    &:hover {
+      background-color: black;
+      color: white;
+    }
+  }
+}
+
+.section-home {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  padding: 5rem 5rem;
+
+  @include m.responsive(phone) {
+    padding: 0;
+    flex-direction: column;
+  }
+
+  &__container-image {
+    width: 100%
+  }
+
+  &__landing {
+    @include card-services();
+  }
+
+  &__web{
+    @include card-services();
+    align-self: flex-end;
+  }
+
+  &__software {
+    @include card-services();
+
+    &--image {
+      order: 1;
+
+      @include m.responsive(phone) {
+        order: 0;
+      }
+    }
+  }
+
+}

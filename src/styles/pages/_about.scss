@@ -1,0 +1,119 @@
+@use'../abstract/variables' as v;
+@use'../abstract/mixins' as m;
+
+@mixin cards-about() {
+  width: 50%;
+  padding: 2rem;
+  border-radius: 1rem;
+  border: 1px solid #fafafa10;
+  box-shadow: 2px 2px 2px hsla(0, 0%, 10%, 0.4);
+
+  @include m.responsive(phone) {
+    width: 100%;
+  }
+
+  &--subtitle {
+    text-align: center;
+    color: v.$color-primary;
+    padding: 1rem 0;
+    width: 60%;
+    margin: 0 auto 1.5rem;
+    border-bottom: 1px solid v.$color-primary;
+
+    @include m.responsive(tab-port) {
+      width: 100%;
+    }
+  }
+
+  &--content {
+    text-align: justify;
+    line-height: 1.2;
+    margin-bottom: 1.2rem;
+    color: v.$color-black-3;
+    font-size: v.$font-size + .1rem;
+
+    @include m.responsive(tab-port) {
+      font-size: v.$font-size - .2rem;
+      width: 100%;
+    }
+  }
+}
+
+.section-about {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  position: relative;
+
+  &__container-photo {
+    align-self: center;
+
+    &--photo {
+      margin: 0 auto;
+      display: block;
+      border-radius: 50%;
+    }
+
+    & p:first-of-type {
+      color: v.$color-primary;
+      font-size: v.$font-size + .2rem;
+      margin-top: 2rem;
+      text-align: center;
+    }
+
+    & p:nth-of-type(2) {
+      text-align: center;
+
+      @include m.responsive(phone) {
+        font-size: 1.2rem;
+      }
+    }
+
+    & p:last-of-type {
+      color: v.$color-primary-dark;
+      display: inline-block;
+      transition: all .2s;
+      text-align: center;
+      width: 100%;
+
+      @include m.responsive(phone) {
+        font-size: 1.3rem;
+      }
+
+      &:hover,
+      &:active {
+        box-shadow: 0 1rem, 2rem rgba(v.$color-black-4, .4);
+        cursor: pointer;
+        transform: rotate(2deg) scale(1.1);
+      }
+    }
+  }
+
+  &__resume {
+    @include cards-about();
+    margin-left: 3rem;
+
+    @include m.responsive(phone) {
+      align-self: center;
+      margin-left: 0;
+    }
+  }
+
+  &__hobbies {
+    @include cards-about();
+    align-self: flex-end;
+    margin-right: 3rem;
+
+    @include m.responsive(phone) {
+      align-self: center;
+      margin-right: 0;
+    }
+    &--content {
+  
+      @include m.responsive(tab-port) {
+        font-size: v.$font-size - .2rem;
+      }
+    }
+
+  }
+}

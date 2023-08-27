@@ -1,0 +1,101 @@
+@use '../abstract/variables' as v;
+@use '../abstract/mixins' as m;
+
+.section-services {
+  // height: 60rem;
+  display: flex;
+  gap: 3rem;
+  justify-content: center;
+  padding: 0 2rem;
+
+  @include m.responsive(phone) {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__landing-card {
+    background: linear-gradient(135deg, #002fffce 0%, white 35%, #002fffce 100%);
+  }
+
+  &__web-card {
+    background: linear-gradient(135deg, #12af12da 0%, white 35%, #12af12da 90%);
+  }
+
+  &__software-card {
+    background: linear-gradient(135deg, #00e1ff 0%, white 35%, #00e1ff 100%);
+  }
+
+  &__title {
+    text-align: center;
+    color: v.$color-primary-dark ;
+  }
+
+  &__landing-card,
+  &__software-card,
+  &__web-card {
+    backdrop-filter: blur(1rem);
+    border-radius: 1rem;
+    box-shadow: 3px 3px 3px #060606a9;
+    padding: 3rem 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: space-around;
+    width: 25%;
+
+    @include m.responsive(tab-land) {
+      width: 35%;
+      backdrop-filter: none;
+    }
+
+    @include m.responsive(phone) {
+      width: 70%;
+    }
+
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: -100%;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(135deg, transparent 0%, #ffffff80 50%, transparent 100%);
+      transition: left 0.2s;
+      pointer-events: none;
+      z-index: -1;
+      opacity: 0;
+    }
+
+    &:hover::before {
+      animation: shine .2s linear forwards;
+      opacity: 1;
+    }
+  }
+
+  & article ul li {
+    font-size: v.$font-size + .1rem;
+    margin-bottom: 1rem;
+    color: v.$color-primary-dark;
+
+    @include m.responsive(phone) {
+      font-size: v.$font-size - .1rem;
+      margin-bottom: .5rem;
+    }
+
+    & span {
+      font-weight: 900;
+      color: v.$color-primary-dark;
+    }
+  }
+}
+
+@keyframes shine {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(100%);
+  }
+}

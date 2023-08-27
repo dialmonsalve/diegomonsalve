@@ -1,0 +1,38 @@
+.typing-effect {
+	overflow: hidden;
+	white-space: nowrap;
+	width: 0;
+	animation: typing 3s steps(40, end) forwards;
+	
+}
+
+@keyframes typing {
+	from {
+		width: 0;
+		margin-left: 5rem;
+	}
+
+	to {
+		width: 100%;
+		margin-left: 0rem;
+	}
+}
+
+.typing-effect::after {
+	content: '|';
+	display: inline-block;
+	width: 0.15em;
+	animation: blink-caret 0.75s step-end 3s infinite;
+}
+
+@keyframes blink-caret {
+
+	from,
+	to {
+		opacity: 1;
+	}
+
+	50% {
+		opacity: 0;
+	}
+}

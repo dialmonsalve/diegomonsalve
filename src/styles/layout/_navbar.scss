@@ -1,0 +1,41 @@
+@use '../abstract/variables' as v;
+@use '../abstract/mixins' as m;
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+
+
+  &__menu{
+    display: flex;
+    align-items: center;
+    padding: 1.8rem;
+    justify-content: center;
+    margin: 3rem auto;
+    width: 90%;
+    border-top: 1px solid v.$color-blue-1 ;
+    border-bottom: 1px solid v.$color-blue-1 ;
+    gap: 2rem;
+
+    @include m.responsive(phone) {
+      width: 100%;
+      gap: .2rem;
+    }
+
+    &--link {
+      @include m.link-nav();
+      font-size: v.$font-size;
+
+      @include m.responsive(phone) {
+        text-align: center;
+        font-size: v.$font-size - .5rem;
+      }
+    }
+  }
+}
+
+.active {
+  background-color: v.$color-primary;
+  color: v.$color-white;
+}

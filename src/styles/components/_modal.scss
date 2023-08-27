@@ -1,0 +1,35 @@
+@use '../abstract/variables' as v;
+@use '../abstract/mixins' as m;
+
+.modal-video {
+  position: fixed;
+  display: flex;
+  z-index: 10;
+  width: 100vw;
+  border: transparent;
+  top: 0;
+  left: 0;
+  backdrop-filter: blur(2px);
+  transition: all .3s 1s;
+
+  &__container {
+    width: 100%;
+    height: 100vh;
+    background-color: #fafafa10;
+
+    
+    &--video {
+      width: 80%;
+      margin: 10%  auto;
+      display: block;
+
+      @include m.responsive(phone) {
+        margin: 40% auto;
+      }
+    }
+
+  }
+}
+
+
+
