@@ -30,21 +30,13 @@ function ProjectPage() {
 
           <div
             className='section-projects__container--leftArrow'
-            onClick={(e) => {
-              e.stopPropagation();
-              previous()
-            }}
-
+            onClick={previous}
           >
             &#10092;
           </div>
           <div
             className='section-projects__container--rightArrow'
-            onClick={(e) => {
-              e.stopPropagation();
-              next()
-            }}
-
+            onClick={next}
           >&#10093;
           </div>
           <Image

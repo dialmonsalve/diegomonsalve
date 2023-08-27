@@ -40,10 +40,18 @@
 
     &--leftArrow {
       left: 3rem;
+      @include m.responsive(phone) {
+        left: -2rem;
+      }
+      
     }
 
     &--rightArrow {
       right: 3rem;
+
+      @include m.responsive(phone) {
+        right: -2rem;
+      }
     }
   }
 
