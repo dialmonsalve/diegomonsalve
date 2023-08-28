@@ -22,7 +22,7 @@ h2 {
 }
 
 h3 {
-  color: v.$color-tertiary;
+  color: v.$color-primary;
   font-size: v.$font-size + 1.4rem;
 
   @include m.responsive(phone) {
@@ -31,7 +31,7 @@ h3 {
 }
 
 h4 {
-  color: v.$color-black-4;
+  color: v.$color-primary;
   font-size: v.$font-size + 1.1rem;
 
   @include m.responsive(phone) {
@@ -59,4 +59,42 @@ h6 {
 
 p {
   font-size: v.$font-size ;
+}
+
+.section-terms, .section-policy {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 1rem 5rem;
+
+  & h2 {
+    text-align: center;
+    margin-top: 2rem;
+  }
+
+  & h3 {
+    text-align: center;
+  }
+
+  & h4 {
+    text-align: center;
+    margin-top: 2rem;
+
+  }
+
+  & p {
+    text-align: justify;
+    font-size: v.$font-size + .4rem;
+
+
+  }
+
+  & li {
+    list-style: circle;
+    font-size: v.$font-size + .4rem;
+  }
+
+  & span {
+    font-weight: 900;
+  }
 }
