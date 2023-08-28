@@ -66,6 +66,9 @@ p {
   flex-direction: column;
   gap: 2rem;
   padding: 1rem 5rem;
+  @include m.responsive(phone){
+    padding: 1rem 2rem;
+  }
 
   & h2 {
     text-align: center;
@@ -85,6 +88,10 @@ p {
   & p {
     text-align: justify;
     font-size: v.$font-size + .4rem;
+
+    @include m.responsive(phone){
+      font-size: v.$font-size ;
+    }
 
 
   }
