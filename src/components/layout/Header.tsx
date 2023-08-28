@@ -28,7 +28,7 @@ export const Header = () => {
         priority={true}
         className='header__logo' src="logo.svg" alt="logo" width={75} height={70} />
       </Link>
-        <h2  className="header__text typing-effect" >SOLUCIONES WEB A TU MEDIDA</h2>
+        <h2 style={{color:'white'}} className="header__text typing-effect" >SOLUCIONES WEB A TU MEDIDA</h2>
 
     </header>
   )
