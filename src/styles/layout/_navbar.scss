@@ -29,7 +29,7 @@
 
       @include m.responsive(phone) {
         text-align: center;
-        font-size: v.$font-size - .5rem;
+        font-size: v.$font-size - .4rem;
       }
     }
   }

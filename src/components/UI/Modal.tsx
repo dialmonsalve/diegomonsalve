@@ -13,6 +13,7 @@ export const Modal = ({ selectedImage, setShowModal }: Props) => {
 
   return (
     <div className={`modal-video`} >
+      <div className="modal-video__close" onClick={handleHideModal} >X</div>
       <div
         className='modal-video__container'
         onClick={handleHideModal}
