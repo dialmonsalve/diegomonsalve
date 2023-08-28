@@ -38,6 +38,7 @@
       width: 80%;
       margin: 10%  auto;
       display: block;
+      border-radius: 1rem;
 
       @include m.responsive(phone) {
         margin: 60% auto;
