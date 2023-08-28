@@ -92,13 +92,15 @@ p {
     @include m.responsive(phone){
       font-size: v.$font-size ;
     }
-
-
   }
 
   & li {
     list-style: circle;
     font-size: v.$font-size + .4rem;
+    text-align: justify;
+    @include m.responsive(phone){
+      font-size: v.$font-size ;
+    }
   }
 
   & span {
