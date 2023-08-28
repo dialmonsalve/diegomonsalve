@@ -12,6 +12,7 @@
 	-webkit-clip-path: polygon(0 0, 100% 0, 100% 60vh, 0 100%);
 	clip-path: polygon(0 0, 100% 0, 100% 60vh, 0 100%);
 	border-radius: 1rem 1rem 0 0;
+	
 
 
 	@include m.responsive(tab-port) {
