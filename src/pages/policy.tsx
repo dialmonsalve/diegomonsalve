@@ -78,7 +78,7 @@ function PolicyPage() {
 
         <li><span>Compartir y Transferir:</span> No comparto ni transfiero datos sensibles a terceros sin el consentimiento del titular, a menos que haya bases legales o excepciones.</li>
 
-        <h4>Enlaces a terceros</h4>
+        <h4>Enlaces a otros sitios</h4>
         <p>Este sitio web puede contener enlaces a otros sitios web. Al hacer clic en estos enlaces y salir de nuestro sitio, perdemos el control sobre esos sitios. No somos responsables de sus términos, políticas de privacidad ni protección de datos. Los enlaces son solo para información y no implican respaldo. Le sugerimos revisar las políticas de privacidad y términos de uso de estos sitios. No tenemos control sobre cómo terceros manejan sus datos. Ejercer precaución al proporcionar información en sitios de terceros es esencial. Aunque buscamos enlaces confiables, su uso es bajo su propio riesgo. Esta política es parte de nuestra Política de Privacidad y usted acepta entender que no somos responsables por enlaces a terceros.</p>
 
         <h4>Seguridad</h4>
