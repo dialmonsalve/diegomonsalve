@@ -32,8 +32,6 @@ function ContactPage() {
     if (form.current === null) return;
 
     if (areFieldsValid(errors)) {
-      console.log({ formState });
-
       emailjs.sendForm(
         `${process.env.NEXT_PUBLIC_API_SERVICE}`,
         `${process.env.NEXT_PUBLIC_API_TEMPLATE}`,
