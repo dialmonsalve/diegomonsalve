@@ -1,9 +1,20 @@
+@use '../abstract/mixins' as m;
+
 .whatsapp {
   position: fixed;
-  bottom: 10.5rem;
-  right: 3.5rem;
+  bottom: 19.3%;
+  right:7%;
   display: none;
   z-index: 1;
+
+  @include m.responsive(tab-port){
+    right: 4rem;
+    bottom: 8.5rem;
+  }
+  @include m.responsive(phone){
+    right: 2.6rem;
+    bottom: 10.5rem;
+  }
 
   &:hover {
     animation: vibrate .3s ease forwards;

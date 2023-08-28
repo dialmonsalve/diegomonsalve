@@ -79,7 +79,9 @@
 
   &__redes {
     display: flex;
-    gap: 2rem;
+    gap: 1rem;
+    align-items: center;
+    align-content: center;
 
     & a {
       transition: all .3s;

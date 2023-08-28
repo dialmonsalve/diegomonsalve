@@ -29,15 +29,35 @@ export const Footer = () => {
       </article>
 
       <article className="footer__redes" >
-        <Link href='https://www.instagram.com/dialmonsalve' target="_blank" >
-        <Image width={40} height={40} src='/icons/instagram.svg'  alt="instagram" />
+        <Link
+          href='https://www.instagram.com/dialmonsalve'
+          target="_blank" >
+          <Image
+            width={50}
+            height={50}
+            src='/icons/instagram.svg'
+            alt="instagram" />
         </Link>
-        <Link href='https://www.facebook.com/dialmonsalve' target="_blank" >
-        <Image width={40} height={40} src='/icons/facebook.svg'  alt="facebook" />
+        <Link
+          href='https://www.facebook.com/dialmonsalve'
+          target="_blank" >
+          <Image
+            style={{ margin: 'auto auto', display: 'block' }}
+            width={50}
+            height={50}
+            src='/icons/facebook.svg'
+            alt="facebook" />
         </Link>
-        <Link href='https://github.com/dialmonsalve' target="_blank" >
-        <Image width={40} height={40} src='/icons/github.svg'  alt="github" />
+        <Link
+          href='https://github.com/dialmonsalve'
+          target="_blank" >
+          <Image
+            width={42}
+            height={42}
+            src='/icons/github.svg'
+            alt="github" />
         </Link>
+
       </article>
       <p className="footer__redes--copyright">&#169; Todas las imágenes de este sitio web son gratuitas y de dominio público según: https://creativecommons.org/</p>
     </footer>
