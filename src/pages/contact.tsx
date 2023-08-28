@@ -1,5 +1,5 @@
 
-import { useRef, FormEvent, RefObject } from "react";
+import { useRef, FormEvent, RefObject, useState } from "react";
 import { useForm } from "@/hooks/useForm";
 
 import emailjs from '@emailjs/browser';
@@ -11,6 +11,7 @@ import { formValidator, newMessage, newMessageValidationSchema } from "@/helpers
 function ContactPage() {
 
   const form: RefObject<HTMLFormElement> = useRef(null);
+  const [toggleAlert, setToggleAlert] = useState(false)
 
   const {
     formState,
@@ -38,9 +39,13 @@ function ContactPage() {
         `${process.env.NEXT_PUBLIC_API_TEMPLATE}`,
         form.current,
         `${process.env.NEXT_PUBLIC_PUBLIC_KEY}`
-        )
+      )
         .then((result) => {
-          console.log(result.text);
+          setToggleAlert(true);
+          setTimeout(() => {
+            setToggleAlert(false);
+          }, 4000);
+
         }, (error) => {
           console.log(error.text);
         });
@@ -130,6 +135,9 @@ function ContactPage() {
           Enviar
         </Button>
       </form>
+      <div className={`alert ${toggleAlert ? 'show-alert' : 'hide-alert'} `} >
+        <p className="alert__messenger" >Enviado con éxito. Nos pondremos en contacto contigo pronto. ¡Gracias!</p>
+      </div>
 
     </Layout>
   )
