@@ -104,6 +104,49 @@ function TermsPage() {
         <li>Para fines históricos, estadísticos o científicos establecidos por la ley.</li>
         <li>En el contexto del Registro Civil de las Personas.</li>
 
+        <h4>Responsabilidades generales</h4>
+
+
+
+        <li><span>Uso Legal:</span> Utilice los servicios solo para fines legales, evitando actividades ilegales como infracciones de propiedad intelectual, malware, phishing, fraude, spam, ataques DDoS y similares.</li>
+
+        <li><span>Respeto:</span> Trata a todos con respeto, evitando el acoso, amenazas, abuso, difamación, discriminación y contenido ofensivo.</li>
+
+        <li><span>Responsabilidad:</span> Utiliza los recursos de manera responsable, evitando abusar de ellos y no interfiriendo con otros usuarios.</li>
+
+        <li><span>Seguridad:</span> Mantén la seguridad de tu cuenta y contenido, utilizando contraseñas seguras y protegiendo tus credenciales. No intentes acceso no autorizado a otras cuentas.</li>
+
+        <li><span>Cooperación:</span> Colabora en investigaciones de violaciones a esta política, proporcionando información si se te solicita.</li>
+
+        <li><span>Contenido Prohibido:</span> Evita publicar contenido ilegal, ofensivo, difamatorio, fraudulento o invasivo de la privacidad.</li>
+
+        <li><span>Usos Prohibidos:</span> No realices actividades perjudiciales, como dañar nuestra reputación, interferir con operaciones, consumir recursos excesivos, intentar acceso no autorizado, entre otros.</li>
+
+        <li><span>Responsabilidad del Cliente:</span> Eres responsable de todas las actividades en tu cuenta, incluso si son realizadas por terceros que accedan a través de tu cuenta.</li>
+
+        <li><span>Violaciones de la Política:</span> Podemos tomar medidas adecuadas en caso de violaciones, como suspensión o terminación de servicios, eliminación de contenido, cooperación con autoridades, entre otros.</li>
+
+        <li><span>Informes de Violaciones:</span> Si conoces violaciones, infórmanos de inmediato. Nos reservamos el derecho de investigar y tomar acciones necesarias.</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         <h4>Deberes de Diego Monsalve</h4>
 
         <p>En calidad de responsable del tratamiento, cuando actúe en tal función, Diego Monsalve cumplirá con los siguientes deberes:</p>

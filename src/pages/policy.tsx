@@ -78,6 +78,26 @@ function PolicyPage() {
 
         <li><span>Compartir y Transferir:</span> No comparto ni transfiero datos sensibles a terceros sin el consentimiento del titular, a menos que haya bases legales o excepciones.</li>
 
+        <h4>Enlaces a terceros</h4>
+        <p>Este sitio web puede contener enlaces a otros sitios web. Al hacer clic en estos enlaces y salir de nuestro sitio, perdemos el control sobre esos sitios. No somos responsables de sus términos, políticas de privacidad ni protección de datos. Los enlaces son solo para información y no implican respaldo. Le sugerimos revisar las políticas de privacidad y términos de uso de estos sitios. No tenemos control sobre cómo terceros manejan sus datos. Ejercer precaución al proporcionar información en sitios de terceros es esencial. Aunque buscamos enlaces confiables, su uso es bajo su propio riesgo. Esta política es parte de nuestra Política de Privacidad y usted acepta entender que no somos responsables por enlaces a terceros.</p>
+
+        <h4>Seguridad</h4>
+
+        <li><span>Detección y Evaluación:</span> Implementaremos medidas para detectar y evaluar problemas de su seguridad. Se realizará una evaluación inmediata ante detección o sospecha.</li>
+
+        <li><span>Notificación a Usuarios Afectados:</span> Notificaremos a los usuarios afectados de manera oportuna y adecuada, utilizando medios efectivos como correo electrónico o publicación en el sitio web.</li>
+
+        <li><span>Notificación a Autoridades Legales:</span> Informaremos a las autoridades si la seguridad afecta significativamente los derechos de los usuarios, según la legislación colombiana.</li>
+
+        <li><span>Medidas de Mitigación:</span> Tomaremos medidas para mitigar y prevenir futuros problemas de seguridad, incluyendo medidas de seguridad adicionales y mejoras en sistemas y políticas.</li>
+
+        <li><span>Registro y Documentación:</span> Mantendremos registros detallados de violaciones a la seguridad, fechas, acciones tomadas, y otros detalles relevantes para mejorarla.</li>
+
+        <li><span>Cooperación con Autoridades y Usuarios:</span> Colaboraremos con autoridades y usuarios para investigar y resolver filtraciones, proporcionando la información necesaria.</li>
+
+        <h4>Control de su información</h4>
+        <p>Diego Monsalve se compromete en no vender, ceder ni distribuir su información personal sin su expreso consentimiento. Para poder suministrar información sin su debido consentimiento será explícitamente en el caso de que sea requerido por un juez mediante una orden judicial válida y legalmente vinculante.</p>
+
         <h4>Reclamos</h4>
         <p>Los titulares o sus representantes legales pueden presentar reclamos si consideran que la información en una base de datos debe ser corregida, actualizada o eliminada, o si detectan un posible incumplimiento de los deberes establecidos en la Ley. Estos reclamos deben ser dirigidos al Responsable del Tratamiento y canalizados a través del canal designado, cuyos detalles de contacto se proporcionarán más adelante. Dicho canal será responsable de la protección de datos personales dentro de diegomonsalve.vercel.app. El reclamo puede ser presentado por el titular, siguiendo los lineamientos del artículo 15 de la Ley 1581 de 2012 y el Decreto 1377 de 2013, y otras normativas pertinentes.</p>
 
