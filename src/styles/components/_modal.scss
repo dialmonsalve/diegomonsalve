@@ -24,7 +24,7 @@
     padding: 0.5rem 1rem;
     border-radius: 50%;
     @include m.responsive(phone) {
-      top: 16%;
+      top: 25%;
     }
   }
 
@@ -40,7 +40,7 @@
       display: block;
 
       @include m.responsive(phone) {
-        margin: 40% auto;
+        margin: 60% auto;
       }
     }
 
