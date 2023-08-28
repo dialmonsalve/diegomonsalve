@@ -7,7 +7,7 @@
 	flex-direction: column;
 	height: 70vh;
 	opacity: 1;
-	background: url('/assets/header.jpg') no-repeat bottom;
+	background: url('/assets/header.jpg') no-repeat top;
 	background-size: cover;
 	-webkit-clip-path: polygon(0 0, 100% 0, 100% 60vh, 0 100%);
 	clip-path: polygon(0 0, 100% 0, 100% 60vh, 0 100%);
