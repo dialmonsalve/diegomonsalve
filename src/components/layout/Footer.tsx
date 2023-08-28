@@ -39,7 +39,7 @@ export const Footer = () => {
         <Image width={40} height={40} src='/icons/github.svg'  alt="github" />
         </Link>
       </article>
-      <p style={{fontSize:'1.2rem', marginTop:'8rem'}} >&#169; Todas las imágenes de este sitio web son gratuitas y fueron tomadas de: https://creativecommons.org/</p>
+      <p className="footer__redes--copyright">&#169; Todas las imágenes de este sitio web son gratuitas y de dominio público según: https://creativecommons.org/</p>
     </footer>
   )
 }
