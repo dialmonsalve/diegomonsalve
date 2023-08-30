@@ -23,7 +23,7 @@ export default function Home() {
             titleCard='Tu sitio web'
             description='Descubre las posibilidades que tienes ante el mundo, compartamos la experiencia de evolucionar y enfocar nuestro trabajo en cumplir tus objetivos.'
             imageHeight={180}
-            imageWidth={280}
+            imageWidth={250}
             service='web'
             imagePath='/assets/web.jpg'        
           />

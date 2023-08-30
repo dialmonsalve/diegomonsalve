@@ -92,6 +92,7 @@
 
     &--copyright {
       font-size: 1.2rem;
+      color:white;
       @include m.responsive(phone){
         margin-top: 1rem;
         text-align: center;

@@ -6,7 +6,7 @@ export const Footer = () => {
     <footer className="footer" >
 
       <nav className="footer__navigation">
-        <u className="footer__navigation--list">
+        <ul className="footer__navigation--list">
           <li className="footer__navigation--item">
             <Link href="/company" className="footer__navigation--link">Compañía</Link>
           </li>
@@ -19,7 +19,7 @@ export const Footer = () => {
           <li className="footer__navigation--item">
             <Link href="/terms" className="footer__navigation--link">Términos</Link>
           </li>
-        </u>
+        </ul>
       </nav>
 
       <article className="footer__contacto">

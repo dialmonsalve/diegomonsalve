@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 function TermsPage() {
   return (
-    <Layout title='dialmonsalve | Términos' pageDescription='Esta es la página acerca de términos del portafolio de Diego Monsalve' >
+    <Layout title='dialmonsalve | Terminos' pageDescription='Esta es la página acerca de términos del portafolio de Diego Monsalve' >
 
       <section className='section-terms' >
 

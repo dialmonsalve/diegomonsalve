@@ -20,7 +20,10 @@ export const CardServicesHome = ({ titleCard, description, service, imageWidth, 
         <Image
         style={{margin:'0 auto'}}
           className={`section-home__${service}--image`}
-          width={imageWidth} height={imageHeight} src={imagePath} alt='service' />
+          width={imageWidth} height={imageHeight} src={imagePath} alt='service'
+          priority
+          
+          />
       </div>
 
       <div className={`section-home__${service}--content`} >
