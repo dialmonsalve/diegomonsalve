@@ -9,7 +9,7 @@ export const metadata = {
   },
 };
 
-function CompanyPage() {
+export default function CompanyPage() {
   return (
     <>
       <h1>Mi compañía</h1>
@@ -103,4 +103,3 @@ function CompanyPage() {
   );
 }
 
-export default CompanyPage;

@@ -12,7 +12,7 @@ export const Navbar = () => {
         <NavLink href="/about">
           NOSOTROS
         </NavLink>
-        <NavLink href="/services">
+        <NavLink href="/our-services">
           SERVICIOS
         </NavLink>
         <NavLink href="/projects">

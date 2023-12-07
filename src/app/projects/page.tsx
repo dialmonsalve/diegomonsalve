@@ -11,7 +11,7 @@ export const metadata = {
   },
 };
 
-function ProjectPage() {
+export default function ProjectPage() {
   return (
     <>
       <h1>Acá encontrarás lo que hemos logrado construir</h1>
@@ -20,4 +20,4 @@ function ProjectPage() {
   );
 }
 
-export default ProjectPage;
+
