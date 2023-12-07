@@ -92,13 +92,13 @@ export default function PolicyPage() {
 
         <li>
           <span>Usos de las Cookies: </span>Sirven para:
-          <li>Personalizar experiencia y recordar preferencias.</li>
-          <li>Mejorar funcionalidad y rendimiento del sitio.</li>
-          <li>Recopilar información estadística y analítica.</li>
-          <li>Brindar publicidad personalizada.</li>
-          <li>Facilitar inicio de sesión y autenticación.</li>
-          <li>Fortalecer seguridad del sitio.</li>
         </li>
+        <li>Personalizar experiencia y recordar preferencias.</li>
+        <li>Mejorar funcionalidad y rendimiento del sitio.</li>
+        <li>Recopilar información estadística y analítica.</li>
+        <li>Brindar publicidad personalizada.</li>
+        <li>Facilitar inicio de sesión y autenticación.</li>
+        <li>Fortalecer seguridad del sitio.</li>
 
         <li>
           <span>Control de Cookies:</span> Usuarios pueden ajustar preferencias
