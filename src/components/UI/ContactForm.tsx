@@ -1,17 +1,20 @@
+'use client';
 
-import { useRef, FormEvent, RefObject, useState } from "react";
-import { useForm } from "@/hooks/useForm";
+import { FormEvent, RefObject, useRef, useState } from 'react';
+import { useForm } from '@/hooks/useForm';
 
 import emailjs from '@emailjs/browser';
 
-import { Layout } from "@/components/layout";
-import { Button, FormControl, ErrorMessage } from "@/components/UI";
-import { formValidator, newMessage, newMessageValidationSchema } from "@/helpers";
+import { Button, FormControl, ErrorMessage } from '.';
+import {
+  formValidator,
+  newMessage,
+  newMessageValidationSchema,
+} from '@/helpers';
 
-function ContactPage() {
-
+export const ContactForm = () => {
   const form: RefObject<HTMLFormElement> = useRef(null);
-  const [toggleAlert, setToggleAlert] = useState(false)
+  const [toggleAlert, setToggleAlert] = useState(false);
 
   const {
     formState,
@@ -20,42 +23,46 @@ function ContactPage() {
     handleBlur,
     handleFieldChange,
     areFieldsValid,
-    handleResetForm
-  } = useForm(newMessage)
+    handleResetForm,
+  } = useForm(newMessage);
 
   const { email, lastName, name, phone, message } = formState;
 
-  const errors = formValidator().getErrors(formState, newMessageValidationSchema);
+  const errors = formValidator().getErrors(
+    formState,
+    newMessageValidationSchema
+  );
 
   const handleSubmit = (e: FormEvent) => {
     e.preventDefault();
     if (form.current === null) return;
 
     if (areFieldsValid(errors)) {
-      emailjs.sendForm(
-        `${process.env.NEXT_PUBLIC_API_SERVICE}`,
-        `${process.env.NEXT_PUBLIC_API_TEMPLATE}`,
-        form.current,
-        `${process.env.NEXT_PUBLIC_PUBLIC_KEY}`
-      )
+      emailjs
+        .sendForm(
+          `${process.env.NEXT_PUBLIC_API_SERVICE}`,
+          `${process.env.NEXT_PUBLIC_API_TEMPLATE}`,
+          form.current,
+          `${process.env.NEXT_PUBLIC_PUBLIC_KEY}`
+        )
         .then((result) => {
           setToggleAlert(true);
           setTimeout(() => {
             setToggleAlert(false);
           }, 4000);
-
-        }, (error) => {
-          console.log(error.text);
-        });
-
-      handleResetForm()
+        })
+        .catch((err) => console.log(err))
+        .finally(handleResetForm);
     }
-  }
+  };
   return (
-    <Layout title='dialmonsalve | Contact' pageDescription={'Cotizamos tu web'}>
-      <h1>Contactanos y coticemos</h1>
-
-      <form ref={form} style={{ width: "50rem" }} className="form" onSubmit={handleSubmit} >
+    <>
+      <form
+        ref={form}
+        style={{ width: '50rem' }}
+        className="form"
+        onSubmit={handleSubmit}
+      >
         <FormControl
           label="Nombre"
           name="name"
@@ -113,7 +120,9 @@ function ContactPage() {
           isFormSubmitted={isFormSubmitted}
           isTouched={isTouched?.phone}
         />
-        <label className={`form-control__label`} >Mensaje<span>*</span> </label>
+        <label className={`form-control__label`}>
+          Mensaje<span>*</span>{' '}
+        </label>
         <ErrorMessage
           fieldName={errors?.message}
           isFormSubmitted={isFormSubmitted}
@@ -129,16 +138,16 @@ function ContactPage() {
           onBlur={handleBlur}
         />
 
-        <Button type="submit" backgroundColor="blue" disabled={!!errors} >
+        <Button type="submit" backgroundColor="blue" disabled={!!errors}>
           Enviar
         </Button>
       </form>
-      <div className={`alert ${toggleAlert ? 'show-alert' : 'hide-alert'} `} >
-        <p className="alert__messenger" >Enviado con éxito. Nos pondremos en contacto contigo pronto. ¡Gracias!</p>
+
+      <div className={`alert ${toggleAlert ? 'show-alert' : 'hide-alert'} `}>
+        <p className="alert__messenger">
+          Enviado con éxito. Nos pondremos en contacto contigo pronto. ¡Gracias!
+        </p>
       </div>
-
-    </Layout>
-  )
-}
-
-export default ContactPage
+    </>
+  );
+};
