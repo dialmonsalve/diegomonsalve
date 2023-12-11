@@ -1,15 +1,35 @@
 @use '../abstract/variables' as v;
 @use '../abstract/mixins' as m;
 
+.container-form {
+  background-color: white;
+  margin: 0 auto;
+  padding: 2rem;
+  border-radius: 2rem;
+  outline: 2px v.$color-purple-1 solid;
+  position: relative;
+
+  &::before {
+    content: '';
+    width: 95%;
+    background-color: v.$color-purple-3;
+    height: 80%;
+    position: absolute;
+    top: 10%;
+    transform: rotate(45deg);
+    border-radius: 1rem;
+    z-index: -1;
+  }
+}
 
 .form-control {
   display: flex;
   gap: 2rem;
-  justify-content: flex-start;  
-  padding: .5rem;
+  justify-content: flex-start;
+  padding: 0.3rem;
   text-transform: uppercase;
 
-  @include m.responsive(phone){
+  @include m.responsive(phone) {
     flex-direction: column;
     gap: 0;
   }
@@ -18,14 +38,14 @@
   &__input {
     color: v.$color-primary !important;
   }
-  
-  &__label {    
+
+  &__label {
     font-size: v.$font-size + 0.2rem;
-    letter-spacing: .1rem;
+    letter-spacing: 0.1rem;
     padding: 1rem 0;
     width: 30%;
-    font-weight:700;
-    @include m.responsive(phone){
+    font-weight: 700;
+    @include m.responsive(phone) {
       width: 100%;
       letter-spacing: 0;
     }
@@ -33,17 +53,16 @@
     & span {
       color: v.$color-red-2;
     }
-
   }
-  
+
   &__input {
-    border:none;
-    outline: 2px solid rgb(149, 149, 149);
-    transition: width .3s;
+    border: none;
+    transition: width 0.3s;
     width: 60%;
     padding: 0.5rem 1rem;
+    border-bottom: 2px solid v.$color-gray-1;
 
-    @include m.responsive(phone){
+    @include m.responsive(phone) {
       width: 100%;
     }
 
@@ -51,20 +70,20 @@
       color: v.$color-gray-2;
       font-weight: 200;
     }
-    
+
     &,
     &:link,
     &:visited {
-      border-radius: 2.5rem;
+      border-radius: 0.5rem;
       font-size: v.$font-size + 0.2rem;
       padding: 0.5rem 1rem;
-      border-bottom:3px solid rgb(233, 233, 233);
     }
 
     &:focus {
-      outline: 2px solid v.$color-green-3;
+      outline: 2px solid transparent;
       width: 66%;
-      @include m.responsive(phone){
+      border-bottom: 2px solid v.$color-green-3;
+      @include m.responsive(phone) {
         width: 100%;
       }
     }
@@ -78,14 +97,14 @@
   flex-direction: column;
   gap: 1rem;
 
-  @include m.responsive(phone){
-    max-width:  30rem;
+  @include m.responsive(phone) {
+    max-width: 30rem;
   }
 }
 
 .text-area {
   max-width: 100%;
-  resize: vertical; 
+  resize: vertical;
   border: 1px solid v.$color-gray-2;
   border-radius: 1rem;
   padding: 1rem;
@@ -97,51 +116,51 @@
 }
 
 .error-container {
-	position: relative;
+  position: relative;
   margin-bottom: 0.5rem;
 
-	&__message {
-		width: 100%;
-		display: flex;
-		color: v.$color-red-3;
-		position: absolute;
-		right: 0;
-		justify-content: flex-end;
-		font-size: 1.2rem;
-		animation: vibrate .3s ease forwards;
-	}
+  &__message {
+    width: 100%;
+    display: flex;
+    color: v.$color-red-3;
+    position: absolute;
+    right: 0;
+    justify-content: flex-end;
+    font-size: 1.2rem;
+    animation: vibrate 0.3s ease forwards;
+  }
 }
 
 @keyframes vibrate {
-	0% {
-		transform: translate(-10%, 0%);
-	}
+  0% {
+    transform: translate(-10%, 0%);
+  }
 
-	15% {
-		transform: translate(-12px, 0%);
-	}
+  15% {
+    transform: translate(-12px, 0%);
+  }
 
-	30% {
-		transform: translate(-10px, 0%);
-	}
+  30% {
+    transform: translate(-10px, 0%);
+  }
 
-	45% {
-		transform: translate(-12px, 0%);
-	}
+  45% {
+    transform: translate(-12px, 0%);
+  }
 
-	70% {
-		transform: translate(-10px, 0%);
-	}
+  70% {
+    transform: translate(-10px, 0%);
+  }
 
-	75% {
-		transform: translate(-12px, 0%);
-	}
+  75% {
+    transform: translate(-12px, 0%);
+  }
 
-	90% {
-		transform: translate(-10px, 0%);
-	}
+  90% {
+    transform: translate(-10px, 0%);
+  }
 
-	100% {
-		transform: translate(-10%, 0%);
-	}
+  100% {
+    transform: translate(-10%, 0%);
+  }
 }

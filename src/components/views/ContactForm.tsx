@@ -56,7 +56,7 @@ export const ContactForm = () => {
     }
   };
   return (
-    <>
+    <div className='container-form'>
       <form
         ref={form}
         style={{ width: '50rem' }}
@@ -148,6 +148,6 @@ export const ContactForm = () => {
           Enviado con éxito. Nos pondremos en contacto contigo pronto. ¡Gracias!
         </p>
       </div>
-    </>
+    </div>
   );
 };
