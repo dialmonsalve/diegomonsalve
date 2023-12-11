@@ -21,7 +21,7 @@ export default function HomePage() {
           titleCard="Landing Page"
           description="Nuestra especialización permitirá diseñar páginas web que cautiven tu público. Estamos comprometidos en resaltar tus aspectos únicos hasta brindar una experiencia intuitiva para tus usuarios."
           imageHeight={180}
-          imageWidth={250}
+          imageWidth={230}
           service="landing"
           imagePath="/assets/landing.jpg"
         />
@@ -30,7 +30,7 @@ export default function HomePage() {
           titleCard="Tu sitio web"
           description="Descubre las posibilidades que tienes ante el mundo, compartamos la experiencia de evolucionar y enfocar nuestro trabajo en cumplir tus objetivos."
           imageHeight={180}
-          imageWidth={250}
+          imageWidth={230}
           service="web"
           imagePath="/assets/web.jpg"
         />

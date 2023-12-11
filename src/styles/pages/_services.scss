@@ -13,14 +13,17 @@
 
   &__landing-card {
     border-top: 5px v.$color-blue-2 solid;
+    height: 55rem;
   }
 
   &__web-card {
-    border-top: 5px v.$color-purple solid;
+    border-top: 5px v.$color-red-2 solid;
+    height: 58rem;
   }
 
   &__software-card {
-    border-top: 5px v.$color-red-2 solid;
+    border-top: 5px v.$color-black-3 solid;
+    height: 61rem;
   }
 
   &__title {
@@ -31,14 +34,13 @@
   &__landing-card,
   &__software-card,
   &__web-card {
-    background-color: white;
+    background-color: whitesmoke;
     border-radius: 1rem;
-    box-shadow: 3px 3px 3px #060606a9;
+    box-shadow: 2px 2px 2px #060606a9;
     padding: 3rem 2rem;
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    height: 100%;
     line-height: 1.8;
 
     @include m.responsive(phone) {

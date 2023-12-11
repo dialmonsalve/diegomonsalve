@@ -61,6 +61,7 @@ export const CardServicesHome = ({
           height={imageHeight}
           src={imagePath}
           alt="service"
+          priority
         />
       </div>
 
