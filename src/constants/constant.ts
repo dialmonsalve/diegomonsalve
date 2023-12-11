@@ -2,7 +2,7 @@ export const MAIN_NAVIGATION = [
   {
     id: 1,
     href: '/',
-    title: 'HOME',
+    title: 'INICIO',
   },
   {
     id: 2,
@@ -54,18 +54,18 @@ export const SOCIAL_NAVIGATION = [
     id: 1,
     href: 'https://www.instagram.com/dialmonsalve',
     src: '/icons/instagram.svg',
-    alt:"instagram"
+    alt: 'instagram',
   },
   {
     id: 2,
     href: 'https://www.facebook.com/dialmonsalve',
     src: '/icons/facebook.svg',
-    alt:"facebook"
+    alt: 'facebook',
   },
   {
     id: 3,
     href: 'https://github.com/dialmonsalve',
     src: '/icons/github.svg',
-    alt:"github"
+    alt: 'github',
   },
 ];
