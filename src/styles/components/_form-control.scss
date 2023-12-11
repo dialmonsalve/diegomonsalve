@@ -43,17 +43,13 @@
     gap: 0;
   }
 
-  &__label,
-  &__input {
-    color: v.$color-primary !important;
-  }
-
   &__label {
     font-size: v.$font-size + 0.2rem;
     letter-spacing: 0.1rem;
     padding: 1rem 0;
     width: 30%;
     font-weight: 700;
+    color: v.$color-primary !important;
     @include m.responsive(phone) {
       width: 100%;
       letter-spacing: 0;
@@ -70,6 +66,7 @@
     width: 60%;
     padding: 0.5rem 1rem;
     border-bottom: 2px solid v.$color-gray-1;
+    background-color: whitesmoke;
 
     @include m.responsive(phone) {
       width: 100%;
