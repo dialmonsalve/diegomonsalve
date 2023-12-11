@@ -1,4 +1,4 @@
-import { PricingCard } from '@/components/UI/PricingCard';
+import { PricingCard } from '@/components/views';
 
 export const metadata = {
   title: 'dialmonsalve | Servicios',

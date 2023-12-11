@@ -1,8 +1,10 @@
 'use client';
 
 import { useRouter } from 'next/navigation';
-import { Button } from './';
+import { Button } from '../UI';
 export const PricingCard = () => {
+
+  
   const router = useRouter();
 
   const handleNavigation = () => {

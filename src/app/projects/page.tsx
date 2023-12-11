@@ -1,4 +1,4 @@
-import { ProjectCarrusel } from "@/components/UI/ProjectCarrusel";
+import { ProjectCarrusel } from "@/components/views";
 
 export const metadata = {
   title: 'dialmonsalve | Proyectos',

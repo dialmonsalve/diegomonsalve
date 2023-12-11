@@ -1,4 +1,4 @@
-import { ContactForm } from '@/components/UI/ContactForm';
+import { ContactForm } from '@/components/views';
 
 export const metadata = {
   title: 'dialmonsalve | Contacto',

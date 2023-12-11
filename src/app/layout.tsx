@@ -1,6 +1,7 @@
 import { Header, Navbar, Footer } from '@/components/layout';
 
 import { ButtonWhatsapp } from '@/components/UI';
+import { firaSans } from '@/fonts';
 
 import '@/styles/main.scss';
 
@@ -21,10 +22,12 @@ export default function RootLayout({
   children,
 }: {
   children: React.ReactNode;
-}) {
+  }) {
+  
+  
   return (
     <html lang="es">
-      <body>
+      <body className={`${firaSans.className} antialiased`} >
         <div className="container">
           <ButtonWhatsapp />
 

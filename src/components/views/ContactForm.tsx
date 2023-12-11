@@ -5,7 +5,7 @@ import { useForm } from '@/hooks/useForm';
 
 import emailjs from '@emailjs/browser';
 
-import { Button, FormControl, ErrorMessage } from '.';
+import { Button, FormControl, ErrorMessage } from '../UI';
 import {
   formValidator,
   newMessage,
