@@ -20,7 +20,7 @@
     width: 6rem;
     background-image: radial-gradient(
       v.$color-primary 13%,
-      v.$color-primary-dark 20%,  
+      v.$color-primary-dark 20%
     );
     border-radius: 50%;
     height: 6rem;
@@ -55,9 +55,10 @@
     &--link {
       &:link,
       &:visited {
+        border-radius: 0.5rem;
         font-size: 3rem;
         font-weight: 300;
-        padding: 1rem 2rem;
+        padding: 0.8rem;
         color: v.$color-white;
         text-decoration: none;
         text-transform: uppercase;
@@ -117,8 +118,8 @@
 .active {
   background-color: v.$color-white;
   color: v.$color-primary-dark;
-  padding: 1rem;
-  border-radius: 0.2rem;
+  padding: 0.8rem;
+  border-radius: 0.5rem;
 }
 
 .show-background {
