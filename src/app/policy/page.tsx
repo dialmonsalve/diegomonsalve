@@ -12,7 +12,7 @@ export const metadata = {
 export default function PolicyPage() {
   return (
     <>
-      <h1>Políticas de privacidad</h1>
+      <h2 className="title-page" >Políticas de privacidad</h2>
       <section className="section-policy">
         <h4>Aviso de privacidad</h4>
 

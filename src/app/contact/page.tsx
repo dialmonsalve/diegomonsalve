@@ -14,7 +14,7 @@ export const metadata = {
 export default function ContactPage() {
   return (
     <>
-      <h1>Contactanos y coticemos</h1>
+      <h2 className="title-page">Contáctanos y coticemos</h2>
       <ContactForm />
     </>
   );

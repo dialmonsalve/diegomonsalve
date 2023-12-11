@@ -14,7 +14,7 @@ export const metadata = {
 export default function ProjectPage() {
   return (
     <>
-      <h1>Acá encontrarás lo que hemos logrado construir</h1>
+      <h2 className="title-page" >Acá encontrarás lo que hemos logrado construir</h2>
       <ProjectCarrusel />
     </>
   );

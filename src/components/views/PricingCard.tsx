@@ -3,8 +3,6 @@
 import { useRouter } from 'next/navigation';
 import { Button } from '../UI';
 export const PricingCard = () => {
-
-  
   const router = useRouter();
 
   const handleNavigation = () => {
@@ -16,30 +14,14 @@ export const PricingCard = () => {
       <article className="section-services__landing-card">
         <h5 className="section-services__title">Landing Page</h5>
         <ul>
-          <li>
-            <span>Página</span> web de una sección
-          </li>
-          <li>
-            <span>Diseño</span> para laptops, tablets, móviles; entre otros.
-          </li>
-          <li>
-            <span>Formulario</span> de contacto
-          </li>
-          <li>
-            <span>Animaciones</span>
-          </li>
-          <li>
-            <span>Integraciones</span> con whatsapp
-          </li>
-          <li>
-            <span>Integraciones</span> con facebook
-          </li>
-          <li>
-            <span>Incluye</span> dominio y hoisting
-          </li>
-          <li style={{ marginTop: '4rem' }}>
-            <span>Y Mucho</span> más
-          </li>
+          <li>✔️ Página web de una sección</li>
+          <li>✔️ Diseño para laptops, tablets, móviles; entre otros.</li>
+          <li>✔️ Formulario de contacto</li>
+          <li>✔️ Animaciones</li>
+          <li>✔️ Integraciones con whatsapp</li>
+          <li>✔️ Integraciones con facebook</li>
+          <li>✔️ Incluye dominio y hoisting</li>
+          <li>Y Mucho más</li>
         </ul>
         <Button backgroundColor="green" onClick={handleNavigation}>
           Pregunta
@@ -49,30 +31,14 @@ export const PricingCard = () => {
       <article className="section-services__web-card">
         <h5 className="section-services__title">Sitios web</h5>
         <ul>
-          <li>
-            <span>Sitio</span> web con páginas requeridas
-          </li>
-          <li>
-            <span>Diseño</span> para laptops, tablets, móviles; entre otros.
-          </li>
-          <li>
-            <span>Formulario</span> de contacto
-          </li>
-          <li>
-            <span>Animaciones</span>
-          </li>
-          <li>
-            <span>Integraciones</span> con whatsapp
-          </li>
-          <li>
-            <span>Integraciones</span> con facebook
-          </li>
-          <li>
-            <span>Incluye</span> dominio y hoisting
-          </li>
-          <li style={{ marginTop: '4rem' }}>
-            <span>Y Mucho</span> más
-          </li>
+          <li>✔️ Sitio web con páginas requeridas</li>
+          <li>✔️ Diseño para laptops, tablets, móviles; entre otros.</li>
+          <li>✔️ Formulario de contacto</li>
+          <li>✔️ Animaciones</li>
+          <li>✔️ Integraciones con whatsapp</li>
+          <li>✔️ Integraciones con facebook</li>
+          <li>✔️ Incluye dominio y hoisting</li>
+          <li>Y Mucho más</li>
         </ul>
         <Button backgroundColor="green" onClick={handleNavigation}>
           Pregunta
@@ -82,33 +48,15 @@ export const PricingCard = () => {
       <article className="section-services__software-card">
         <h5 className="section-services__title">Software a tu medida</h5>
         <ul>
-          <li>
-            <span>Sitio</span> web con páginas requeridas
-          </li>
-          <li>
-            <span>Diseño</span> para laptops, tablets, móviles; entre otros.
-          </li>
-          <li>
-            <span>Inventarios</span>
-          </li>
-          <li>
-            <span>Ventas</span>
-          </li>
-          <li>
-            <span>Autenticación</span>
-          </li>
-          <li>
-            <span>Reportes</span>
-          </li>
-          <li>
-            <span>Agilidad</span> en entregas
-          </li>
-          <li>
-            <span>Incluye</span> dominio y hoisting
-          </li>
-          <li style={{ marginTop: '4rem' }}>
-            <span>Y Mucho</span> más
-          </li>
+          <li>✔️ Sitio web con páginas requeridas</li>
+          <li>✔️ Diseño para laptops, tablets, móviles; entre otros.</li>
+          <li>✔️ Inventarios</li>
+          <li>✔️ Ventas</li>
+          <li>✔️ Autenticación</li>
+          <li>✔️ Reportes</li>
+          <li>✔️ Agilidad en entregas</li>
+          <li>✔️ Incluye dominio y hoisting</li>
+          <li>Y Mucho más</li>
         </ul>
         <Button backgroundColor="green" onClick={handleNavigation}>
           Pregunta

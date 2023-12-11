@@ -15,6 +15,11 @@ export const MAIN_NAVIGATION = [
     title: 'SERVICIOS',
   },
   {
+    id: 5,
+    href: '/projects',
+    title: 'PROYECTOS',
+  },
+  {
     id: 4,
     href: '/contact',
     title: 'CONTACTO',

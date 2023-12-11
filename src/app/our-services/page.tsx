@@ -14,7 +14,7 @@ export const metadata = {
 export default function ServicesPage() {
   return (
     <>
-      <h1>Estos son nuestros servicios</h1>
+      <h2 className="title-page" >Estos son nuestros servicios</h2>
       <PricingCard />
     </>
   );

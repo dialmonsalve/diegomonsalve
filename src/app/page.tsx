@@ -14,7 +14,7 @@ export const metadata = {
 export default function HomePage() {
   return (
     <>
-      <h1>Descubre un mundo de posibilidades</h1>
+      <h2 className="title-page">Descubre un mundo de posibilidades</h2>
 
       <section className="section-home">
         <CardServicesHome

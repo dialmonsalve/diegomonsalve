@@ -12,7 +12,7 @@ export const metadata = {
 export default function CompanyPage() {
   return (
     <>
-      <h1>Mi compañía</h1>
+      <h2 className="title-page" >Mi compañía</h2>
       <section className="section-company">
         <h4>Misión</h4>
 

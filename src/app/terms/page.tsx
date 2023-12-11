@@ -15,7 +15,7 @@ function TermsPage() {
   return (
     <>
       <section className="section-terms">
-        <h1>Términos y condiciones</h1>
+        <h2 className="title-page" >Términos y condiciones</h2>
 
         <h2>LEY ESTATUTARIA 1581 DE 2012 </h2>
         <h3>
