@@ -5,7 +5,7 @@
   background-color: white;
   margin: 0 auto;
   padding: 2rem;
-  border-radius: 2rem;
+  border-radius: 1.2rem;
   outline: 2px v.$color-purple-1 solid;
   position: relative;
 
@@ -19,6 +19,15 @@
     transform: rotate(45deg);
     border-radius: 1rem;
     z-index: -1;
+
+    @include m.responsive(phone) {
+      transform: rotate(0);
+      width: 110%;
+      top: -3%;
+      height: 106%;
+      left: -5%;
+      border-radius: 1.5rem;
+    }
   }
 }
 
