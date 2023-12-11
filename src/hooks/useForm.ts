@@ -27,10 +27,6 @@ export const useForm = <T>(initialForm: T) => {
   const handleBlur = (e: ReactFocusEvent) => {
     const { name } = e.target;
     setIsTouched((prevIsTouched) => ({ ...prevIsTouched, [name]: true }));
-
-    if (!isTouched?.name) {
-      e.target.style.borderBottom = '3px solid rgb(233, 233, 233)';
-    }
   };
 
   const areFieldsValid = (
