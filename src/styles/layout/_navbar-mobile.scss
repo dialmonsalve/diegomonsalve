@@ -44,7 +44,9 @@
   }
 
   &__icon {
-    margin-top: 2.6rem;
+    @include m.responsive(phone) {
+      margin-top: 2.6rem;
+    }
     &,
     &::before,
     &::after {
