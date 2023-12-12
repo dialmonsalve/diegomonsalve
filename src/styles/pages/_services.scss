@@ -45,6 +45,7 @@
 
     @include m.responsive(phone) {
       width: 75%;
+      height:100%;
     }
   }
 
