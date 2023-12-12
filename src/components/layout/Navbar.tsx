@@ -1,10 +1,16 @@
 import { MenuButton, MainNavigation } from '../UI';
 import { UIProvider } from '@/context/UIProvider';
+import Image from 'next/image';
 
 export const Navbar = () => {
   return (
     <UIProvider>
       <nav className="navigation">
+        <div className='navigation__mobile' >
+          <a href="/">
+            <Image src="/icons/home.svg" width={35} height={35} alt="home" />
+          </a>
+        </div>
         <MenuButton />
         <MainNavigation />
       </nav>

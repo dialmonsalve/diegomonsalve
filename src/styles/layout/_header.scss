@@ -14,6 +14,7 @@
   border-radius: 1rem 1rem 0 0;
 
   @include m.responsive(tab-port) {
+    background: url('/assets/header.jpg') no-repeat center;
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%);
     clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%);
     border-radius: 0;
@@ -37,6 +38,9 @@
     text-align: center;
     margin-top: 15rem;
 		color: v.$color-purple;
+    @include m.responsive(tab-port) {
+      color: v.$color-white;
+    }
   }
 }
 
