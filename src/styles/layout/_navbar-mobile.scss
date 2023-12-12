@@ -9,7 +9,7 @@
     bottom: 0;
     right: 0;
     width: 100%;
-    height: 7.5rem;
+    height: 6.6rem;
     position: fixed;
     z-index: 5;
     justify-content: center;
@@ -26,8 +26,10 @@
   &__btn-menu {
     @include m.responsive(phone) {
       position: absolute;
-      top: 1.5%;
+      top: 5%;
       background-color: v.$color-white;
+      width: 5rem;
+      height: 5rem;
     }
   }
 
@@ -35,11 +37,14 @@
     @include m.responsive(phone) {
       position: absolute;
       right: 3.2rem;
-      top: 5%;
+      top: 9%;
+      width: 4rem;
+      height: 4rem;
     }
   }
 
   &__icon {
+    margin-top: 2.6rem;
     &,
     &::before,
     &::after {
@@ -53,14 +58,15 @@
     &,
     &::before,
     &::after {
-      height: 4px;
+      width: 3rem;
+      height: 3px;
     }
     &::before {
-      top: -1.2rem;
+      top: -1rem;
     }
 
     &::after {
-      top: 1.2rem;
+      top: 1rem;
     }
   }
 }
@@ -68,11 +74,11 @@
 .change-icon {
   background-color: transparent;
   &::before {
-    top: -2%;
+    top: -80%;
     transform: rotate(135deg);
   }
   &::after {
-    top: 0;
+    top: -80%;
     transform: rotate(-135deg);
   }
 }

@@ -8,7 +8,7 @@ export const Navbar = () => {
       <nav className="navigation">
         <div className='navigation__mobile' >
           <a href="/">
-            <Image src="/icons/home.svg" width={35} height={35} alt="home" />
+            <Image src="/icons/home.svg" width={30} height={30} alt="home" />
           </a>
         </div>
         <MenuButton />
