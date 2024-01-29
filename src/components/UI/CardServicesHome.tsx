@@ -20,6 +20,7 @@ export const CardServicesHome = ({
   imageHeight,
   imagePath,
 }: Props) => {
+
   const [articleVisible, setArticleVisible] = useState(false);
   const observerRef = useRef<HTMLDivElement>(null);
 

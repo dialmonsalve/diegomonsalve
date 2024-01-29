@@ -3,6 +3,7 @@ import { Header, Navbar, Footer } from '@/components/layout';
 import { ButtonWhatsapp } from '@/components/UI';
 import { firaSans } from '@/fonts';
 
+import { UIProvider } from '@/context/UIProvider';
 import '@/styles/main.scss';
 
 export const metadata = {
@@ -22,22 +23,25 @@ export default function RootLayout({
   children,
 }: {
   children: React.ReactNode;
-  }) {
-  
-  
+}) {
+
+
   return (
     <html lang="es">
       <body className={`${firaSans.className} antialiased`} >
-        <div className="container">
-          <ButtonWhatsapp />
+        <UIProvider>
 
-          <Header />
-          <Navbar />
+          <div className="container">
+            <ButtonWhatsapp />
 
-          <main className="main">{children}</main>
+            <Header />
+            <Navbar />
 
-          <Footer />
-        </div>
+            <main className="main">{children}</main>
+
+            <Footer />
+          </div>
+        </UIProvider>
       </body>
     </html>
   );

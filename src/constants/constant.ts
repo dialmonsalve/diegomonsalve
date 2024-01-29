@@ -1,30 +1,3 @@
-export const MAIN_NAVIGATION = [
-  {
-    id: 1,
-    href: '/',
-    title: 'INICIO',
-  },
-  {
-    id: 2,
-    href: '/about',
-    title: 'NOSOTROS',
-  },
-  {
-    id: 3,
-    href: '/our-services',
-    title: 'SERVICIOS',
-  },
-  {
-    id: 5,
-    href: '/projects',
-    title: 'PROYECTOS',
-  },
-  {
-    id: 4,
-    href: '/contact',
-    title: 'CONTACTO',
-  },
-];
 
 export const FOOTER_NAVIGATION = [
   {
@@ -44,8 +17,8 @@ export const FOOTER_NAVIGATION = [
   },
   {
     id: 4,
-    href: '/contact',
-    title: 'terms',
+    href: '/terms',
+    title: 'TERMS',
   },
 ];
 

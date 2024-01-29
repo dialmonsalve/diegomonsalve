@@ -1,14 +1,17 @@
 'use client';
-import { MAIN_NAVIGATION } from '@/constants/constant';
-import { UIContext } from '@/context/UIContext';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { useContext } from 'react';
+import { UIContext } from '@/context/UIContext';
+
+import languages from "../../../languages.json"
 
 export const MainNavigation = () => {
   const pathname = usePathname();
 
-  const { showMenu, toggleMenu } = useContext(UIContext);
+  const { showMenu, toggleMenu, language } = useContext(UIContext);
+
+  const {MAIN_NAVIGATION} = languages?.[language]
 
   return (
     <div className={`navigation__nav ${showMenu ? 'show-menu' : ''} `}>

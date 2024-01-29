@@ -1,10 +1,8 @@
 import { MenuButton, MainNavigation } from '../UI';
-import { UIProvider } from '@/context/UIProvider';
 import Image from 'next/image';
 
 export const Navbar = () => {
   return (
-    <UIProvider>
       <nav className="navigation">
         <div className='navigation__mobile' >
           <a href="/">
@@ -14,6 +12,5 @@ export const Navbar = () => {
         <MenuButton />
         <MainNavigation />
       </nav>
-    </UIProvider>
   );
 };

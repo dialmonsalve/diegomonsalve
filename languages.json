@@ -1,0 +1,339 @@
+{
+  "en": {
+    "header": "WEB SOLUTIONS TO YOUR MEASURE",
+    "home": {
+      "h2": "DISCOVER A WORLD OF POSSIBILITIES",
+      "landingTitle": "Landing Page",
+      "landingContent": "Our specialization will allow us to design web pages that captivate your audience. We are committed to highlighting your unique aspects until we provide an intuitive experience for your users.",
+      "yourSiteTitle": "Your website",
+      "yourSiteContent": "Discover the possibilities you have before the world, let's share the experience of evolving and focusing our work on meeting your goals.",
+      "softwareTitle": "Custom software",
+      "softwareContent": "We offer custom software solutions designed to meet the requirements of each company. We are highly qualified to work closely with you and understand your internal processes, challenges and goals.."
+    },
+    "MAIN_NAVIGATION": [
+      {
+        "id": 1,
+        "href": "/",
+        "title": "HOME"
+      },
+      {
+        "id": 2,
+        "href": "/about",
+        "title": "ABOUT"
+      },
+      {
+        "id": 3,
+        "href": "/our-services",
+        "title": "SERVICES"
+      },
+      {
+        "id": 5,
+        "href": "/projects",
+        "title": "PROJECTS"
+      },
+      {
+        "id": 4,
+        "href": "/contact",
+        "title": "CONTACT"
+      }
+    ],
+    "about": {
+      "h2": "LEARN MORE WHO I AM",
+      "profession": "By profession: Productivity and quality engineer",
+      "passion": "Out of passion and conviction: web developer",
+      "trajectoryTitle": "trajectory",
+      "trajectoryContentP1": "From the beginning of my working life at age 18, I have maintained constant progress, facing the challenges that life presents us along the way.",
+      "trajectoryContentP2": "With more than 10 years of dedication to logistics, Inventory management and 1 in production I have the necessary experience to guide companies in the creation and maintenance of custom software, adapted to their specific needs.",
+      "trajectoryContentP3": "Two years ago, I decided to enter the world of web development, with the aim of helping others with my knowledge. Now, I want to share what I have learned with those people who require my services.",
+      "hobblesTitle": "And what do I like?",
+      "hobblesContentP1": "I have a passion for my family, web development and tasks that require mental effort",
+      "hobblesContentP2": "I value interpersonal relationships and seek to enrich my knowledge through interaction with others.",
+      "hobblesContentP3": "I am excited to approach each activity with passion and dedication, additionally I enjoy spending time with pleasant and enriching people. I consider myself a sociable person open to new challenges.",
+      "hobblesContentP4": "My social life does not hinder my work commitment, which allows me to lead a calm and harmonious life, always with a deep love for animals and nature.",
+      "hobblesContentP5": "As a final touch, in my routine, the coffee cup is an essential element on my table.?"
+    },
+    "services": {
+      "h2": "Landing Page",
+      "landingList1": "✔ ⁇ Web page of a section",
+      "landingList2": "✔ ⁇ Design for laptops, tablets, mobiles; among others",
+      "landingList3": "✔ ⁇ Contact form",
+      "landingList4": "✔ ⁇ Animations",
+      "landingList5": "✔ ⁇ Integrations with WhatsApp",
+      "landingList6": "✔ ⁇ Integrations with facebook",
+      "landingList7": "✔ ⁇ Includes domain and hoisting And much more",
+      "websiteTitle": "Websites",
+      "websiteList1": "✔ ⁇ Website with required pages",
+      "websiteList2": "✔ ⁇ Design for laptops, tablets, mobiles; among others.",
+      "websiteList3": "✔ ⁇ Contact form",
+      "websiteList4": "✔ ⁇ Animations",
+      "websiteList5": "✔ ⁇ Integrations with WhatsApp",
+      "websiteList6": "✔ ⁇ Integrations with facebook",
+      "websiteList7": "✔ ⁇ Includes domain and hoisting And much more",
+      "softwareTitle": "Software for you",
+      "softwareLis1": "✔ ⁇ Website with required pages",
+      "softwareLis2": "✔ ⁇ Design for laptops, tablets, mobiles; among others.",
+      "softwareLis3": "✔ ⁇ Inventories",
+      "softwareLis4": "✔ ⁇ Sales",
+      "softwareLis5": "✔ ⁇ Authentication",
+      "softwareLis6": "✔ ⁇ Reports",
+      "softwareLis7": "✔ ⁇ Agility in deliveries",
+      "softwareLis8": "✔ ⁇ Includes domain and hoisting And much more",
+      "buttonQuestion": "question"
+    },
+    "projects": {
+      "h2": "HERE YOU WILL FIND WHAT WE HAVE MANAGED TO BUILD"
+    },
+    "contact": {
+      "h2": "CONTACT US AND LET'S QUOTE",
+      "formName": "name",
+      "formNamePlaceholder": "your name",
+      "formLastName": "Your last name",
+      "formLastNamePlaceholder": "your name",
+      "formEmail": "email",
+      "formNameEmail": "your email",
+      "formPhone": "phone",
+      "formPhonePlaceholder": "your phone",
+      "formMessage": "message",
+      "formMessagePlaceholder": "ask your questions",
+      "formButton": "send"
+    },
+    "company": {
+      "h2": "my company",
+      "missionTitle": "mission",
+      "missionP1": "We are a company passionate about the creation, implementation and maintenance of websites that generate impact for entrepreneurs, small and medium-sized companies. Our mission is to promote the digital presence of our clients, offering solutions that provide an exceptional experience to their users.",
+      "missionP2": "We stand out for our focus on excellence, working tirelessly to ensure that each project reflects the vision and values of our clients. Through the development of e-commerce solutions, we open doors to fluid online sales opportunities, enhancing the presence and reach of your products.",
+      "missionP3": "Not only do we strive for commercial success, but we also embrace a strong social and environmental commitment. We actively promote sustainable practices, ensuring that our operations are respectful of the environment and promoting habits that contribute to a more sustainable future.",
+      "missionP4": "Technology is at the core of our work, and we pride ourselves on basing our solutions on React, Node.js and Javascript, ensuring that our customers are backed by the technological forefront. Our team keeps abreast of the latest trends and developments to ensure that the solutions we provide are always on par with emerging technologies.",
+      "missionP5": "Ultimately, our purpose is to be a reliable and results-oriented partner for our clients. We work closely with them to transform their goals into digital realities, setting quality standards that exceed expectations and leave a lasting mark on the online world.",
+      "visionTitle": "vision",
+      "visionP1": "By 2026, we aspire to be one of the 20 most recognized companies in the Medellín metropolitan area, not only for our operational excellence and our cutting-edge technological solutions, but also for our continuous innovation and commitment to the well-being of our clients and community.",
+      "visionP2": "Our vision goes beyond simply being a market leader. We seek to stay at the forefront of emerging technology trends, ensuring that our solutions are always relevant and effective to our clients in a constantly evolving world. We strive to be a beacon of innovation and adaptability, responding to changing needs in an agile and effective way.",
+      "visionP3": "However, our impact is not limited to technology. We are also committed to fostering a human and empathetic sense in everything we do. We believe that technology must improve people's lives and society in general. We pride ourselves not only on providing solutions, but also on creating meaningful and lasting connections with our customers and the community in which we operate.",
+      "visionP4": "As we move towards our goal, we will continue to promote ethical and sustainable practices, supporting technological education, and fostering diversity and inclusion in our team and in the technological ecosystem. Our vision is not only to be a leading company, but also to be an agent of positive change in the business and social landscape.",
+      "visionP5": "We are committed to this path and will work tirelessly to realize this shared vision, driving digital transformation, business growth, and collective well-being in our community and beyond."
+    },
+    "footer": {
+      "company": "company",
+      "contact": "contact",
+      "policies": "policies",
+      "terms": "terms",
+      "telephone": "telephone +57 319-7839908",
+      "city": "Envigado - Antioquia",
+      "imagesCopyright": "All images on this website are free and in the public domain according to: https://creativecommons.org/"
+    }
+  },
+  "es": {
+    "header": "soluciones web a tu medida",
+    "home": {
+      "h2": "DISCOVER A WORLD OF POSSIBILITIES",
+      "landingTitle": "Landing Page",
+      "landingContent": "Our specialization will allow us to design web pages that captivate your audience. We are committed to highlighting your unique aspects until we provide an intuitive experience for your users.",
+      "yourSiteTitle": "Your website",
+      "yourSiteContent": "Discover the possibilities you have before the world, let's share the experience of evolving and focusing our work on meeting your goals.",
+      "softwareTitle": "Custom software",
+      "softwareContent": "We offer custom software solutions designed to meet the requirements of each company. We are highly qualified to work closely with you and understand your internal processes, challenges and goals.."
+    },
+    "MAIN_NAVIGATION": [
+      {
+        "id": 1,
+        "href": "/",
+        "title": "INICIO"
+      },
+      {
+        "id": 2,
+        "href": "/nosotros",
+        "title": "NOSOTROS"
+      },
+      {
+        "id": 3,
+        "href": "/our-services",
+        "title": "SERVICIOS"
+      },
+      {
+        "id": 5,
+        "href": "/projects",
+        "title": "PROYECTOS"
+      },
+      {
+        "id": 4,
+        "href": "/contact",
+        "title": "CONTACTO"
+      }
+    ],
+    "about": {
+      "h2": "LEARN MORE WHO I AM",
+      "profession": "By profession: Productivity and quality engineer",
+      "passion": "Out of passion and conviction: web developer",
+      "trajectoryTitle": "trajectory",
+      "trajectoryContentP1": "From the beginning of my working life at age 18, I have maintained constant progress, facing the challenges that life presents us along the way.",
+      "trajectoryContentP2": "With more than 10 years of dedication to logistics, Inventory management and 1 in production I have the necessary experience to guide companies in the creation and maintenance of custom software, adapted to their specific needs.",
+      "trajectoryContentP3": "Two years ago, I decided to enter the world of web development, with the aim of helping others with my knowledge. Now, I want to share what I have learned with those people who require my services.",
+      "hobblesTitle": "And what do I like?",
+      "hobblesContentP1": "I have a passion for my family, web development and tasks that require mental effort",
+      "hobblesContentP2": "I value interpersonal relationships and seek to enrich my knowledge through interaction with others.",
+      "hobblesContentP3": "I am excited to approach each activity with passion and dedication, additionally I enjoy spending time with pleasant and enriching people. I consider myself a sociable person open to new challenges.",
+      "hobblesContentP4": "My social life does not hinder my work commitment, which allows me to lead a calm and harmonious life, always with a deep love for animals and nature.",
+      "hobblesContentP5": "As a final touch, in my routine, the coffee cup is an essential element on my table.?"
+    },
+    "services": {
+      "h2": "Landing Page",
+      "landingList1": "✔ ⁇ Web page of a section",
+      "landingList2": "✔ ⁇ Design for laptops, tablets, mobiles; among others",
+      "landingList3": "✔ ⁇ Contact form",
+      "landingList4": "✔ ⁇ Animations",
+      "landingList5": "✔ ⁇ Integrations with WhatsApp",
+      "landingList6": "✔ ⁇ Integrations with facebook",
+      "landingList7": "✔ ⁇ Includes domain and hoisting And much more",
+      "websiteTitle": "Websites",
+      "websiteList1": "✔ ⁇ Website with required pages",
+      "websiteList2": "✔ ⁇ Design for laptops, tablets, mobiles; among others.",
+      "websiteList3": "✔ ⁇ Contact form",
+      "websiteList4": "✔ ⁇ Animations",
+      "websiteList5": "✔ ⁇ Integrations with WhatsApp",
+      "websiteList6": "✔ ⁇ Integrations with facebook",
+      "websiteList7": "✔ ⁇ Includes domain and hoisting And much more",
+      "softwareTitle": "Software for you",
+      "softwareLis1": "✔ ⁇ Website with required pages",
+      "softwareLis2": "✔ ⁇ Design for laptops, tablets, mobiles; among others.",
+      "softwareLis3": "✔ ⁇ Inventories",
+      "softwareLis4": "✔ ⁇ Sales",
+      "softwareLis5": "✔ ⁇ Authentication",
+      "softwareLis6": "✔ ⁇ Reports",
+      "softwareLis7": "✔ ⁇ Agility in deliveries",
+      "softwareLis8": "✔ ⁇ Includes domain and hoisting And much more",
+      "buttonQuestion": "question"
+    },
+    "projects": {
+      "h2": "HERE YOU WILL FIND WHAT WE HAVE MANAGED TO BUILD"
+    },
+    "contact": {
+      "h2": "CONTACT US AND LET'S QUOTE",
+      "formName": "name",
+      "formNamePlaceholder": "your name",
+      "formLastName": "Your last name",
+      "formLastNamePlaceholder": "your name",
+      "formEmail": "email",
+      "formNameEmail": "your email",
+      "formPhone": "phone",
+      "formPhonePlaceholder": "your phone",
+      "formMessage": "message",
+      "formMessagePlaceholder": "ask your questions",
+      "formButton": "send"
+    },
+    "company": {
+      "h2": "my company",
+      "missionTitle": "mission",
+      "missionP1": "We are a company passionate about the creation, implementation and maintenance of websites that generate impact for entrepreneurs, small and medium-sized companies. Our mission is to promote the digital presence of our clients, offering solutions that provide an exceptional experience to their users.",
+      "missionP2": "We stand out for our focus on excellence, working tirelessly to ensure that each project reflects the vision and values of our clients. Through the development of e-commerce solutions, we open doors to fluid online sales opportunities, enhancing the presence and reach of your products.",
+      "missionP3": "Not only do we strive for commercial success, but we also embrace a strong social and environmental commitment. We actively promote sustainable practices, ensuring that our operations are respectful of the environment and promoting habits that contribute to a more sustainable future.",
+      "missionP4": "Technology is at the core of our work, and we pride ourselves on basing our solutions on React, Node.js and Javascript, ensuring that our customers are backed by the technological forefront. Our team keeps abreast of the latest trends and developments to ensure that the solutions we provide are always on par with emerging technologies.",
+      "missionP5": "Ultimately, our purpose is to be a reliable and results-oriented partner for our clients. We work closely with them to transform their goals into digital realities, setting quality standards that exceed expectations and leave a lasting mark on the online world.",
+      "visionTitle": "vision",
+      "visionP1": "By 2026, we aspire to be one of the 20 most recognized companies in the Medellín metropolitan area, not only for our operational excellence and our cutting-edge technological solutions, but also for our continuous innovation and commitment to the well-being of our clients and community.",
+      "visionP2": "Our vision goes beyond simply being a market leader. We seek to stay at the forefront of emerging technology trends, ensuring that our solutions are always relevant and effective to our clients in a constantly evolving world. We strive to be a beacon of innovation and adaptability, responding to changing needs in an agile and effective way.",
+      "visionP3": "However, our impact is not limited to technology. We are also committed to fostering a human and empathetic sense in everything we do. We believe that technology must improve people's lives and society in general. We pride ourselves not only on providing solutions, but also on creating meaningful and lasting connections with our customers and the community in which we operate.",
+      "visionP4": "As we move towards our goal, we will continue to promote ethical and sustainable practices, supporting technological education, and fostering diversity and inclusion in our team and in the technological ecosystem. Our vision is not only to be a leading company, but also to be an agent of positive change in the business and social landscape.",
+      "visionP5": "We are committed to this path and will work tirelessly to realize this shared vision, driving digital transformation, business growth, and collective well-being in our community and beyond."
+    },
+    "footer": {
+      "company": "company",
+      "contact": "contact",
+      "policies": "policies",
+      "terms": "terms",
+      "telephone": "telephone +57 319-7839908",
+      "city": "Envigado - Antioquia",
+      "imagesCopyright": "All images on this website are free and in the public domain according to: https://creativecommons.org/"
+    }
+  },
+  "menu": {
+    "home": "home",
+    "about": "about",
+    "services": "services",
+    "projects": "projects",
+    "contact": "contact"
+  },
+  "about": {
+    "h2": "LEARN MORE WHO I AM",
+    "profession": "By profession: Productivity and quality engineer",
+    "passion": "Out of passion and conviction: web developer",
+    "trajectoryTitle": "trajectory",
+    "trajectoryContentP1": "From the beginning of my working life at age 18, I have maintained constant progress, facing the challenges that life presents us along the way.",
+    "trajectoryContentP2": "With more than 10 years of dedication to logistics, Inventory management and 1 in production I have the necessary experience to guide companies in the creation and maintenance of custom software, adapted to their specific needs.",
+    "trajectoryContentP3": "Two years ago, I decided to enter the world of web development, with the aim of helping others with my knowledge. Now, I want to share what I have learned with those people who require my services.",
+    "hobblesTitle": "And what do I like?",
+    "hobblesContentP1": "I have a passion for my family, web development and tasks that require mental effort",
+    "hobblesContentP2": "I value interpersonal relationships and seek to enrich my knowledge through interaction with others.",
+    "hobblesContentP3": "I am excited to approach each activity with passion and dedication, additionally I enjoy spending time with pleasant and enriching people. I consider myself a sociable person open to new challenges.",
+    "hobblesContentP4": "My social life does not hinder my work commitment, which allows me to lead a calm and harmonious life, always with a deep love for animals and nature.",
+    "hobblesContentP5": "As a final touch, in my routine, the coffee cup is an essential element on my table.?"
+  },
+  "services": {
+    "h2": "Landing Page",
+    "landingList1": "✔ ⁇ Web page of a section",
+    "landingList2": "✔ ⁇ Design for laptops, tablets, mobiles; among others",
+    "landingList3": "✔ ⁇ Contact form",
+    "landingList4": "✔ ⁇ Animations",
+    "landingList5": "✔ ⁇ Integrations with WhatsApp",
+    "landingList6": "✔ ⁇ Integrations with facebook",
+    "landingList7": "✔ ⁇ Includes domain and hoisting And much more",
+    "websiteTitle": "Websites",
+    "websiteList1": "✔ ⁇ Website with required pages",
+    "websiteList2": "✔ ⁇ Design for laptops, tablets, mobiles; among others.",
+    "websiteList3": "✔ ⁇ Contact form",
+    "websiteList4": "✔ ⁇ Animations",
+    "websiteList5": "✔ ⁇ Integrations with WhatsApp",
+    "websiteList6": "✔ ⁇ Integrations with facebook",
+    "websiteList7": "✔ ⁇ Includes domain and hoisting And much more",
+    "softwareTitle": "Software for you",
+    "softwareLis1": "✔ ⁇ Website with required pages",
+    "softwareLis2": "✔ ⁇ Design for laptops, tablets, mobiles; among others.",
+    "softwareLis3": "✔ ⁇ Inventories",
+    "softwareLis4": "✔ ⁇ Sales",
+    "softwareLis5": "✔ ⁇ Authentication",
+    "softwareLis6": "✔ ⁇ Reports",
+    "softwareLis7": "✔ ⁇ Agility in deliveries",
+    "softwareLis8": "✔ ⁇ Includes domain and hoisting And much more",
+    "buttonQuestion": "question"
+  },
+  "projects": {
+    "h2": "HERE YOU WILL FIND WHAT WE HAVE MANAGED TO BUILD"
+  },
+  "contact": {
+    "h2": "CONTACT US AND LET'S QUOTE",
+    "formName": "name",
+    "formNamePlaceholder": "your name",
+    "formLastName": "Your last name",
+    "formLastNamePlaceholder": "your name",
+    "formEmail": "email",
+    "formNameEmail": "your email",
+    "formPhone": "phone",
+    "formPhonePlaceholder": "your phone",
+    "formMessage": "message",
+    "formMessagePlaceholder": "ask your questions",
+    "formButton": "send"
+  },
+  "company": {
+    "h2": "my company",
+    "missionTitle": "mission",
+    "missionP1": "We are a company passionate about the creation, implementation and maintenance of websites that generate impact for entrepreneurs, small and medium-sized companies. Our mission is to promote the digital presence of our clients, offering solutions that provide an exceptional experience to their users.",
+    "missionP2": "We stand out for our focus on excellence, working tirelessly to ensure that each project reflects the vision and values of our clients. Through the development of e-commerce solutions, we open doors to fluid online sales opportunities, enhancing the presence and reach of your products.",
+    "missionP3": "Not only do we strive for commercial success, but we also embrace a strong social and environmental commitment. We actively promote sustainable practices, ensuring that our operations are respectful of the environment and promoting habits that contribute to a more sustainable future.",
+    "missionP4": "Technology is at the core of our work, and we pride ourselves on basing our solutions on React, Node.js and Javascript, ensuring that our customers are backed by the technological forefront. Our team keeps abreast of the latest trends and developments to ensure that the solutions we provide are always on par with emerging technologies.",
+    "missionP5": "Ultimately, our purpose is to be a reliable and results-oriented partner for our clients. We work closely with them to transform their goals into digital realities, setting quality standards that exceed expectations and leave a lasting mark on the online world.",
+    "visionTitle": "vision",
+    "visionP1": "By 2026, we aspire to be one of the 20 most recognized companies in the Medellín metropolitan area, not only for our operational excellence and our cutting-edge technological solutions, but also for our continuous innovation and commitment to the well-being of our clients and community.",
+    "visionP2": "Our vision goes beyond simply being a market leader. We seek to stay at the forefront of emerging technology trends, ensuring that our solutions are always relevant and effective to our clients in a constantly evolving world. We strive to be a beacon of innovation and adaptability, responding to changing needs in an agile and effective way.",
+    "visionP3": "However, our impact is not limited to technology. We are also committed to fostering a human and empathetic sense in everything we do. We believe that technology must improve people's lives and society in general. We pride ourselves not only on providing solutions, but also on creating meaningful and lasting connections with our customers and the community in which we operate.",
+    "visionP4": "As we move towards our goal, we will continue to promote ethical and sustainable practices, supporting technological education, and fostering diversity and inclusion in our team and in the technological ecosystem. Our vision is not only to be a leading company, but also to be an agent of positive change in the business and social landscape.",
+    "visionP5": "We are committed to this path and will work tirelessly to realize this shared vision, driving digital transformation, business growth, and collective well-being in our community and beyond."
+  },
+  "footer": {
+    "company": "company",
+    "contact": "contact",
+    "policies": "policies",
+    "terms": "terms",
+    "telephone": "telephone +57 319-7839908",
+    "city": "Envigado - Antioquia",
+    "imagesCopyright": "All images on this website are free and in the public domain according to: https://creativecommons.org/"
+  }
+}

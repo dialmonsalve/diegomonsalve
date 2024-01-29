@@ -1,5 +1,9 @@
 import { CardServicesHome } from '@/components/UI';
 
+import { UIContext } from '@/context/UIContext';
+import languages from "../../languages.json"
+import { useContext } from 'react';
+
 export const metadata = {
   title: 'dialmonsalve | home',
   description:
@@ -12,6 +16,8 @@ export const metadata = {
 };
 
 export default function HomePage() {
+
+
   return (
     <>
       <h2 className="title-page">Descubre un mundo de posibilidades</h2>

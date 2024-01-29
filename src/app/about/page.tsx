@@ -1,5 +1,6 @@
 import Image from 'next/image';
 
+import language from  "../../../languages.json"
 export const metadata = {
   title: 'dialmonsalve | Nosotros',
   description:
@@ -12,6 +13,7 @@ export const metadata = {
 };
 
 export default function AboutPage() {
+
   return (
     <>
       <h2 className="title-page" >Conoce más quien soy</h2>
@@ -28,6 +30,9 @@ export default function AboutPage() {
           <p>De profesión: Ingeniero de productividad y calidad. </p>
           <p>Por pasión y convicción: desarrollador web</p>
         </div>
+
+        <h1>EJEMPLO</h1>
+        {language.en.about.h2}
 
         <article className="section-about__resume">
           <div className="section-about__background"></div>
