@@ -31,8 +31,7 @@ export default function AboutPage() {
           <p>Por pasión y convicción: desarrollador web</p>
         </div>
 
-        <h1>EJEMPLO</h1>
-        {language.en.about.h2}
+        <h2>Conoce más quien soy </h2>
 
         <article className="section-about__resume">
           <div className="section-about__background"></div>
