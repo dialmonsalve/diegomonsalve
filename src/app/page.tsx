@@ -1,23 +1,30 @@
-import { CardServicesHome } from '@/components/UI';
-
-import { UIContext } from '@/context/UIContext';
-import languages from "../../languages.json"
-import { useContext } from 'react';
+import { CardServicesHome } from "@/components/UI";
 
 export const metadata = {
-  title: 'dialmonsalve | home',
+  title: "dialmonsalve | home",
   description:
-    'Transforma tu presencia en línea con servicios de desarrollo web y diseño creativo. Soy Diego Monsalve, un freelancer apasionado comprometido con crear experiencias digitales impactantes para empresas y emprendedores. Descubre cómo puedo ayudarte a destacar en la web',
+    "Transforma tu presencia en línea con servicios de desarrollo web y diseño creativo. Soy Diego Monsalve, un freelancer apasionado comprometido con crear experiencias digitales impactantes para empresas y emprendedores. Descubre cómo puedo ayudarte a destacar en la web",
   openGraph: {
-    title: 'dialmonsalve | home',
+    url: "",
+    title: "home",
     description:
-      'Experto en desarrollo web y diseño creativo. Crea experiencias digitales impactantes para empresas y emprendedores. ¡Descubre cómo destacar en la web con mis servicios!',
+      "Experto en desarrollo web y diseño creativo. Crea experiencias digitales impactantes para empresas y emprendedores. ¡Descubre cómo destacar en la web con mis servicios!",
+  },
+  robots: {
+    index: false,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: false,
+      noimageindex: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
   },
 };
 
 export default function HomePage() {
-
-
   return (
     <>
       <h2 className="title-page">Descubre un mundo de posibilidades</h2>

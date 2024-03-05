@@ -1,10 +1,11 @@
-'use client';
-import { Modal } from '@/components/UI/Modal';
-import { useProjects } from '@/hooks/useProjects';
-import Image from 'next/image';
+"use client";
+import { Modal } from "@/components/UI/Modal";
+import { useProjects } from "@/hooks/useProjects";
+import Image from "next/image";
+import Link from "next/link";
 
 export const ProjectCarrusel = () => {
-  const images = ['01', '02', '03', '04'];
+  const images = ["01", "02", "03", "04", "05"];
 
   const {
     loaded,
@@ -35,7 +36,7 @@ export const ProjectCarrusel = () => {
             &#10093;
           </div>
           <Image
-            className={`image ${loaded ? 'loaded' : ''}`}
+            className={`image ${loaded ? "loaded" : ""}`}
             onLoad={() => setLoaded(true)}
             src={`/projects/${selectedImage}.png`}
             alt="project"
@@ -50,7 +51,7 @@ export const ProjectCarrusel = () => {
             <div
               key={idx}
               className={`section-projects__dots-container--dots ${
-                idx === selectIndex ? 'bg' : ''
+                idx === selectIndex ? "bg" : ""
               }`}
               onClick={() => goToSlide(idx)}
             >
@@ -58,6 +59,21 @@ export const ProjectCarrusel = () => {
             </div>
           ))}
         </div>
+        {selectedImage === "01" ? (
+          <div style={{ height: "0.5rem" }}>
+            <Link
+              href="https://dialui-components.netlify.app/"
+              target="_blank"
+              rel="noreferrer"
+              className="footer__navigation--link"
+              style={{ color: "#1d4d87" }}
+            >
+              <span>visit: dialui-components</span>
+            </Link>
+          </div>
+        ) : (
+          <div style={{ height: "0.5rem" }}></div>
+        )}
       </section>
       {showModal && (
         <Modal selectedImage={selectedImage} setShowModal={setShowModal} />
